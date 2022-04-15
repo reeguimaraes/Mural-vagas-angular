@@ -6,4 +6,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run 'json-server --watch vagas-db.json'
+Run `json-server --watch vagas-db.json`
+
+Obs:Talvez precise mover o arquivo vagas-db.json para fora da raiz.
