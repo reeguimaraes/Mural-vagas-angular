@@ -1,13 +1,29 @@
+<nav class="navbar navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">LH - Vagas</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-<nav class="nav">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">LH - Vagas</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/mural">Mural de Vagas</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" routerLink="/painel">Cadastro Vagas</a>
-  </li>
-
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/mural">
+          <i class="fa fa-home"></i>
+          Mural de Vagas
+          <span class="sr-only">(current)</span>
+          </a>
+      </li>
+    
+      <li class="nav-item">
+        <a class="nav-link" href="/atualizador">
+          <i class="fa fa-envelope-o">
+            <span class="badge badge-warning"></span>
+          </i>
+          Atualizar Vagas
+        </a>
+      </li>
+         
+    </ul>
+   
+  </div>
 </nav>

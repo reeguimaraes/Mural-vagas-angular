@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { VagasService } from './vagas.service';
-import { Vaga } from './models/Vagas.model';
+import { VagasService } from '../vagas.service';
+import { Vaga } from '../models/Vagas.model';
 import { NgForm } from '@angular/forms';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-atualizador',
+  templateUrl: './atualizador.component.html',
+  styleUrls: ['./atualizador.component.css']
 })
-export class AppComponent implements OnInit {
+export class AtualizadorComponent implements OnInit {
 
   vaga = {} as Vaga;
 
@@ -43,14 +43,14 @@ export class AppComponent implements OnInit {
     });
   }
 
-  
+
   deleteVaga(vaga: Vaga) {
     this.vagasService.deleteVaga(vaga).subscribe(() => {
       this.getVagas();
     });
   }
 
-
+ 
   editVaga(vaga: Vaga) {
     this.vaga = { ...vaga };
   }
