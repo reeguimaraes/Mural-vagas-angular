@@ -4,8 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm install` for a dev server.
+Run `npm start` for init
 
 Run `json-server --watch vagas-db.json`
 
-Obs:Talvez precise mover o arquivo vagas-db.json para fora da raiz.
+Exemplo de mural de vagas utilizando angular! 
